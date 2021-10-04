@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.titulo{
+				font-family: 'Acme', sans-serif;
+				font-size: 1.5em;
+				color: red;	
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section> 
+					<p style="font-size: 2.5em; text-align: center; margin:auto; font-family: 'Acme', sans-serif;">Historia de la Web</p>
+				</section>
+				<section> <!--diapositiva 2 -->
+					<section data-transition="zoom"><p class="titulo">¿Que es la Web?</p></section>
+					<section>
+						<p>La Web es un conjunto de documentos enlazados a través de enlaces de hipertexto.</p>
+						<p> Se entiende por “hipertexto” la mezcla de textos, gráficos y archivos de todo tipo, en un mismo documento</p>
+					</section>
+					<section>
+						<p>Web no son sinónimo de Internet; Internet es la red de redes donde reside toda la 
+							información, siendo un entorno de aprendizaje abierto. La web es un subconjunto de Internet que
+							contiene información a la que se puede acceder usando un navegador. Tanto
+							el correo electrónico, como facebook, twiter, wikis, juegos, etc. son parte de
+							Internet, pero no la web.</p>
+						<p>La web es un “organismo vivo” y, como tal, evoluciona. Desde su creación el año
+							1966 hasta el posterior nacimiento del Internet que conocemos.</p>
+					</section>
+				</section>
+
+				<section>
+					<section data-transition="zoom">
+					<p class="titulo">Tipos de webs</p>
+					</section>
+					<section>
+						<ul>
+							<li>Web 1.0</li>
+							<li>Web 2.0</li>
+							<li>Web 3.0</li>
+							<li>Web 4.0</li>
+						</ul>
+					</section>
+				 </section>
+
+				<section > <!--diapositiva 3 -->
+					<section data-transition="zoom"><p class="titulo">Web 1.0</p></section>
+					<section>
+						<p>La web 1.0, fue la primera (apareció hacia 1990) y en ella solo se podía
+						consumir contenido. Se trataba de información a la que se podía acceder, pero sin
+						posibilidad de interactuar; era unidireccional.</p>
+						<p>Esta web primitiva es estática, centralizada, secuencial, de solo lectura, y es no interactiva. 
+						Sirve para utilizar el correo electrónico, navegadores, motores de búsqueda, etc</p>
+					</section>
+					<section>
+						<img src="img/web1.png" alt="">
+					</section>
+				</section>
+
+				<section> <!--diapositiva 4 -->
+					<section data-transition="zoom"> <p class="titulo">Web 2.0</p></section>
+					<section>
+					<p>El término web 2.0 fue acuñado por O’Reilly en 2004 para referirse a una segunda
+						generación de tecnología web basada en comunidades de usuarios y una gama
+						especial de servicios, como las redes sociales, los blogs, etc</p>
+					<p>La web 2 posibilita la conexión de personas con personas</p>
+					<p>Es dinámica, interactiva, de lectura y escritura, desarrolla la inteligencia colectiva
+						y favorece el trabajo colaborativo, también llamada web social por el enfoque colaborativo y de
+						interacción social de esta herramienta.</p>	
+					</section>
+					<section>
+						<img src="img/web2.png" alt="">
+					</section>
+				</section>
+
+				<section> <!--diapositiva 5 -->
+					<section data-transition="zoom"><p class="titulo">Web 3.0</p></section>
+					<section>
+						<p>El término web 3.0 apareció por primera vez en 2006 en un artículo de Zeldman,
+							crítico de la web 2.0. Esta web fue operativa desde el 2010.</p>
+						<p> La web 3.0 es conocida como la “websemántica” porque utiliza de forma más eficiente 
+							de los datos: “data web”. Es inter-operativa y el usuario tiene el control para hacer 
+							los cambios que desee modificando directamente las bases de datos</p>
+					</section>
+					<section>
+						<img src="img/web3.png" alt="">
+					</section>
+				</section>
+
+				<section> <!--diapositiva 6 -->
+					<section data-transition="zoom"><p class="titulo">Web 4.0</p></section>
+					<section>
+						<p>En el 2016 empezó la web 4.0, que es el próximo gran avance y se centrará en
+							ofrecer un comportamiento más inteligente, más predictivo</p>
+						<p>Se trata de una web activa. Por ejemplo, hasta la fecha, el uso de buscadores es 
+							algo importante, ya que brindan información (páginas web) sobre lo que un usuario busca
+							o escribe. Sin embargo, la web 4.0 será mucho más activa y funcionará como un asistente 
+							virtual con inteligencia artificial.</p>
+
+					</section>
+					<section>
+						<img src="img/web-4.jpg" alt="">
+					</section>
+
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
